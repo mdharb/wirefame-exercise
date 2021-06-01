@@ -53,33 +53,50 @@ header nav ul li a{
 #sectionThree{
     margin-top: 30px;
     margin-bottom: 30px;
+    display: inline;
 }
-
 
 .lastImage{
     float: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 30px;
+    margin:30px;
+    margin-right: 0 ;
     position: relative;
 
 }
 
 .lastImage img{
     width: 50%;
-    height: 200px;
+    height: 250px;
 }
 
 
+
+
 .lastPara{
-    text-align: left;
+
+    display: inline;
+    position: relative;
+}
+
+.lastPara h3{ 
+    margin-top: 30px;
+    margin-bottom: 0;
+   
 }
 
 #para{
     height:200px;
-    width: 48%;
+    width: 43%;
     overflow-y: scroll;
+    /* text-align: right; */
+    position: relative;
+
+}
+
+#para p{
     text-align: right;
+    position: absolute;
+    left: 25%
 }
 
 
@@ -96,6 +113,7 @@ footer{
     background-size: cover;
     background-color: rgb(56, 56, 56);
     padding: 30px;
+    margin-top: 30px;
     
 }
 
