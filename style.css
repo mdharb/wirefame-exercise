@@ -1,23 +1,24 @@
 * {
     box-sizing: border-box;
-    /* text-align: center; */
 }
 
 body{
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: whitesmoke;
 }
 
 
 header {
     background-color: rgb(56, 56, 56);
-    padding: 20px;
+    padding: 35px;
     margin-bottom: 30px;
     position: relative;
 }
 
 header img{
     position: absolute;
-    left: 14%;
+    left: 14.5%;
     bottom: 10px;
 }
 
@@ -61,12 +62,14 @@ header nav ul li a{
     margin:30px;
     margin-right: 0 ;
     position: relative;
+    width: 480px;
 
 }
 
 .lastImage img{
     width: 50%;
     height: 250px;
+    left: 100px;
 }
 
 
@@ -81,12 +84,14 @@ header nav ul li a{
 .lastPara h3{ 
     margin-top: 30px;
     margin-bottom: 0;
+    font-size: x-large;
+    font-weight: bold;
    
 }
 
 #para{
     height:200px;
-    width: 43%;
+    width: 48%;
     overflow-y: scroll;
     /* text-align: right; */
     position: relative;
@@ -101,7 +106,7 @@ header nav ul li a{
 
 
 
-#para button:hover{
+.lastPara button:hover{
     background-color: black;
     color: white;
     transition-duration: 350ms;
@@ -116,4 +121,3 @@ footer{
     margin-top: 30px;
     
 }
-
